@@ -1,0 +1,43 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #dceaf0;
+}
+.mainParent{
+    margin-top: 90px;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+
+}
+#parent{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px ;
+}
+#parent .childDiv{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 221, 206);
+    border: 1px solid black;
+    margin: 4px 3px;
+    padding: 20px 40px;
+    
+    
+}
+#parent .childDiv h4{
+    padding: 0px 20px;
+}
+#parent .childDiv a{
+    padding: 0px 20px;
+    color: green;
+}
+#votecount{
+    padding: 0px 10px;
+}
