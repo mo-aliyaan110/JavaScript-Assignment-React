@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#parent{
+    border: 2px solid black;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 20px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 31%;
+
+}
+#parent h1{
+    position: relative;
+    margin-bottom: 12%;
+}
+#parent .select #bgcolor{
+    position: relative;
+    width: 320px;
+    height: 35px;
+    border-radius: 4px;
+    margin-top:  8px;
+}

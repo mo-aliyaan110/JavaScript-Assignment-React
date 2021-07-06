@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose BG Color</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="./bgColor.css">
+    <!-- external JS -->
+    <script src="./bgColor.js"></script>
+</head>
+<body>
+    <div id="parent">
+        <h1>Hello, World !</h1>
+        <p id="p"></p>
+        <div class="select">
+            <h4>What Color?</h4>
+            <select name="BGColor" onchange="changeBG(this.value)" id="bgcolor" >
+
+                <option  value=""> Color </option>
+                <option  value="#e67e22"> Orange </option>
+                <option  value="#2980b9"> Blue </option>
+                <option  value="#c0392b"> Red </option>
+                <option  value="#f1c40f"> Yellow </option>
+                <option  value="#9b59b6"> Purple </option>
+                <option  value="#474787"> Violet </option>
+                <option  value="#ccae62"> Chocolate </option>
+            </select>
+        </div>
+    </div>
+</body>
+</html>
